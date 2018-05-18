@@ -1,16 +1,16 @@
 {
-  "name": "@lianjia/ljbucky-cli",
+  "name": "@lianjia-fe/bucky-cli",
 
-  "version": "0.0.42",
-  "coreVersion": "0.1.6",
+  "version": "0.0.44",
+  "coreVersion": "0.1.1",
 
   "bin": {"bucky": "./bin/bucky"},
 
   "description": "a node web server's cli",
 
-  "repository": "https://github.com/LianjiaTech/ljbucky-cli",
+  "repository": "https://github.com/LianjiaTech/bucky-cli",
   "author": "lianjia-fe@lianjia.com",
-  "license": "ISC",
+  "license": "MIT",
   "engines": {
     "node": ">= 6.0.0"
   },

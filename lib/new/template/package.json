@@ -9,7 +9,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@lianjia/ljbucky-core": "<%= coreVersion%>",
+    "@lianjia-fe/bucky-core": "<%= coreVersion%>",
     "babel-polyfill": "^6.16.0",
     "ini": "^1.3.4",
 

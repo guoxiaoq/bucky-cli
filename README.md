@@ -1,6 +1,6 @@
-# LJBucky's cli
+# Bucky's cli
 
-> LJBucky 的业务使用脚手架
+> Bucky 的业务使用脚手架
 
 ```
      __                __
@@ -11,14 +11,14 @@
     with ♥︎ by lianjia-fe
 ```
 
-bucky 项目在这里 `https://github.com/LianjiaTech/ljbucky-core`
+bucky 项目在这里 `https://github.com/LianjiaTech/bucky-core`
 
 ### 安装方式
 
 如果没有可以使用
 
 ```
-npm install @lianjia-fe/ljbucky-cli -g
+npm install @lianjia-fe/bucky-cli -g
 ```
 
 ---
@@ -26,7 +26,7 @@ npm install @lianjia-fe/ljbucky-cli -g
 ### 初始化项目
 
 ```
- ljbucky new my_project -d xxx.lianjia.com
+ bucky new my_project -d xxx.lianjia.com
 ```
 
 Options:
@@ -40,19 +40,19 @@ Options:
 
 ```
  // 创建 action，默认路径 my_project/src/configs/actions/
- ljbucky action /my/path/here
+ bucky action /my/path/here
 
  // 创建 api，默认路径 my_project/src/configs/apis
- ljbucky api myAPI
+ bucky api myAPI
 
  // 创建 model，默认路径 my_project/src/configs/models
- ljbucky model MyModel
+ bucky model MyModel
 
  // 创建 response，默认路径 my_project/src/configs/responses
- ljbucky response myResponse
+ bucky response myResponse
 
  // 创建 service，默认路径 my_project/src/configs/services
- ljbucky service myServer
+ bucky service myServer
 ```
 
 ```
